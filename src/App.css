@@ -1,0 +1,24 @@
+/* Add your global styles here */
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .brand {
+    margin-bottom: 10px;
+  }
+
+  .get-users-button {
+    margin-top: 10px;
+  }
+
+  .user-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/* More media queries for other breakpoints as needed */
